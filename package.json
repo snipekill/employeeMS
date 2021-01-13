@@ -1,13 +1,13 @@
 {
   "name": "employee-db",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Employee Management System",
   "main": "index.js",
   "author": "CIBOLA",
   "license": "MIT",
   "scripts": {
-    "start": "NODE_ENV=development nodemon src/index.js",
-    "start:prod": "NODE_ENV=production node src/index.js"
+    "start": "NODE_ENV=development nodemon index.js",
+    "start:prod": "NODE_ENV=production node index.js"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -16,7 +16,6 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "jsonschema": "^1.4.0",
-    "mysql": "^2.18.1",
     "mysql2": "^2.2.5",
     "sequelize": "^6.3.5",
     "xss": "^1.0.8"
